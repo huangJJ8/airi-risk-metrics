@@ -190,5 +190,4 @@ flowchart LR
 （只允许 `INNER JOIN` / `LEFT JOIN`，禁止 UNION、禁止任意 CTE、禁止 UDF、禁止 DDL/DML、
 禁止注释），而执行沙箱会对声明的数据源强制只读访问。
 
-每条边界背后的推理见[设计原则](design-principles.md)，逐阶段的实现记录见
-[工程历史](../history/)。
+每条边界背后的推理见[设计原则](design-principles.md)。

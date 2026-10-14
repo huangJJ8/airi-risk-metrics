@@ -40,7 +40,7 @@ AIRI 的所有重要变更都记录在此。格式基于 [Keep a Changelog](http
 - 终端快速 demo（`examples/quick_demo.py`）。
 - GitHub Actions CI（后端测试 + ruff + alembic，前端构建 + 测试，开源安全扫描）。
 - Docker Compose 配置（运行时在本仓库中未验证（NOT VERIFIED））。
-- Apache License 2.0、CONTRIBUTING、SECURITY 策略、开源安全扫描器、架构文档，以及完整的工程历史（`docs/history/`）。
+- Apache License 2.0、CONTRIBUTING、SECURITY 策略、开源安全扫描器、架构文档。
 
 ### 诚实的限制与已知不足
 

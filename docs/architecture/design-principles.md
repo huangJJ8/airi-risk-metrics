@@ -129,4 +129,3 @@ Deployment review
 - [架构总览](overview.md) —— 流水线与组件地图
 - [快速开始](../guides/quickstart.md) —— 在本地跑起来
 - [新增一个场景](../guides/adding-scenario.md) —— 扩展它，而不是分叉它
-- [作品集说明](../portfolio.md) —— 这些决策的原因，以面试问答形式呈现

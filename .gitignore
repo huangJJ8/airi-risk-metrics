@@ -10,8 +10,25 @@ pytest-cache-files-*/
 .coverage.*
 htmlcov/
 *.egg-info/
-docs/history
+
+# ---------------------------------------------------------------------------
+# Private career / job-search material — deliberately NOT published.
+#
+# These documents live on this machine only. Nothing here is part of the
+# product: it is interview preparation, resume versions, and the internal
+# release/publication records that reference them.
+#
+# IMPORTANT: .gitignore does NOT untrack a file that is already committed, and
+# it does not remove it from existing commits. These paths were therefore also
+# purged from every commit in this repository's history, and the old objects
+# were garbage-collected. If you ever re-add a repo remote, verify with:
+#     git log --all --name-only | sort -u | grep -E 'interview|resume|portfolio\.md'
+# ---------------------------------------------------------------------------
+docs/interview/
+docs/history/
+docs/portfolio.md
 docs/resume-project.md
+docs/release-notes-v1.0.0.md
 
 # Environment / secrets (never commit real credentials)
 .env

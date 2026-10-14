@@ -301,10 +301,7 @@ airi/
 │   ├── architecture/     overview, design principles
 │   ├── guides/           quickstart, demo, adding-scenario, api, release checklist
 │   ├── screenshots/      captured from the running demo
-│   ├── demo/             demo GIF / MP4
-│   ├── history/          phase-by-phase implementation reports
-│   ├── interview/        pitch, Q&A, architecture walkthrough, demo script
-│   └── portfolio.md      design rationale, interview form
+│   └── demo/             demo GIF / MP4
 ├── tests/                backend test suite
 ├── migrations/           alembic (head: 0011_operational_convergence)
 └── pyproject.toml
@@ -434,8 +431,7 @@ AIRI v1.0 在设计上就是功能完备的。后续工作：
 
 ## 工程历史
 
-AIRI 是分阶段构建的，每个阶段都有一份在开发当时写下的实现报告——包括那个时点**尚未**
-验证的内容。
+AIRI 是分阶段构建的：每一阶段先确立一块被后续阶段依赖的机制，验证之后再进入下一阶段。
 
 | 阶段 | 确立了 |
 | --- | --- |
@@ -446,8 +442,6 @@ AIRI 是分阶段构建的，每个阶段都有一份在开发当时写下的实
 | 10 | Web MVP（后端功能冻结） |
 | 11 | 多场景验证 —— `New Scenario ≠ New Workflow` |
 | 12 | 开源与作品集发布 —— README、一键演示、CI、Docker 配置、演示 GIF、v1.0.0 |
-
-完整索引与摘要：[`docs/history/`](docs/history/README.md)。
 
 ---
 

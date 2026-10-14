@@ -271,8 +271,6 @@ AIRI_PRODUCTION_REQUIRE_ROLLBACK_VERIFIED=false
 
 - [ ] 所有集成测试都在 `AIRI_ENVIRONMENT=production` 下运行，且**不跳过**。
 - [ ] 上面每一条要么已勾选，要么带着原因被明确记录为未验证。
-- [ ] `docs/history/phase8-report.md` 的 §real-environment 小节已按实际观察到的内容
-      更新。
 - [ ] 本清单中没有任何一条是靠 mock、夹具或假设满足的。
 
 **在你的环境中无法完成的清单，也是一种有效结果。** 记录这个缺口；不要用仿真把它

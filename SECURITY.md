@@ -19,7 +19,7 @@ AIRI 是 AI 辅助风控指标研发平台的一个**研究 / 作品集实现**�
 ## 有意不做安全加固的部分
 
 - 审批中的评审人身份由调用方声称；API 上**没有**登录 / 认证。这只在受控的本地 / demo 环境中可以接受。
-- 生产适配器（`spark_test`、生产 provider、身份信任边界、遥测证明）以**故障关闭（fail-closed）的集成接缝**形式存在。它们在本仓库中针对任何真实基础设施都**未验证（NOT VERIFIED）**；参见 `REAL_ENVIRONMENT_CHECKLIST.md` 和 `docs/history/` 中的阶段报告。
+- 生产适配器（`spark_test`、生产 provider、身份信任边界、遥测证明）以**故障关闭（fail-closed）的集成接缝**形式存在。它们在本仓库中针对任何真实基础设施都**未验证（NOT VERIFIED）**；参见 [`docs/guides/real-environment-checklist.md`](docs/guides/real-environment-checklist.md)。
 
 ## 上报漏洞
 
