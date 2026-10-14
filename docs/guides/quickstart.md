@@ -25,7 +25,7 @@
 ### Windows（主要平台，已验证）
 
 ```powershell
-git clone https://github.com/huangJJ8/airi.git
+git clone https://github.com/huangJJ8/airi-risk-metrics.git
 cd airi
 
 .\scripts\start-demo.ps1
@@ -59,7 +59,7 @@ cd airi
 ### macOS / Linux（尽力而为，本仓库未做运行时验证）
 
 ```bash
-git clone https://github.com/huangJJ8/airi.git
+git clone https://github.com/huangJJ8/airi-risk-metrics.git
 cd airi
 
 ./scripts/start-demo.sh

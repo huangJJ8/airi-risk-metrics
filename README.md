@@ -7,7 +7,7 @@ AIRI 把自然语言描述的风控指标需求，转换为结构化的**指标 
 
 > **LLMs reason. Python verifies. Humans govern.**（模型负责推理，Python 负责验证，人负责治理。）
 
-[![CI](https://github.com/huangJJ8/airi/actions/workflows/ci.yml/badge.svg)](https://github.com/huangJJ8/airi/actions/workflows/ci.yml)
+[![CI](https://github.com/huangJJ8/airi-risk-metrics/actions/workflows/ci.yml/badge.svg)](https://github.com/huangJJ8/airi-risk-metrics/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.12%2B-blue)
 ![Vue](https://img.shields.io/badge/vue-3.5-42b883)
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue)
@@ -203,7 +203,7 @@ GROUP BY
 ### Windows（已验证）
 
 ```powershell
-git clone https://github.com/huangJJ8/airi.git
+git clone https://github.com/huangJJ8/airi-risk-metrics.git
 cd airi
 
 .\scripts\start-demo.ps1     # migrate → seed synthetic data → start both servers
